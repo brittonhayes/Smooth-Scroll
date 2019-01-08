@@ -334,8 +334,9 @@ nav a#toggle-btn {
   background: none;
   border: 1px solid #8d8273;
   padding: 20px;
+  font-size: 20px;
   font-family: 'Roboto';
-  font-weight: 400;
+  font-weight: 800;
   color: rgb(211, 165, 100);
 }
 
