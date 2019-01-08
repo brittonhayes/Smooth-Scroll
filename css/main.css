@@ -1,7 +1,9 @@
 body {
   font-family: 'Roboto';
   margin: 0;
-  background: #343233;
+  /* background: #343233; */
+  background: rgb(52,50,51);
+  background: linear-gradient(143deg, rgba(52,50,51,1) 0%, rgba(59,58,55,1) 68%);
 }
 
 .container {
@@ -26,7 +28,7 @@ h3 {
 }
 
 h1 {
-  font-size: 54px;
+  font-size: 84px;
   color: #ffd152;
 }
 
@@ -51,11 +53,26 @@ p {
   margin: 20px 0;
   color: #8d8273;
   line-height: 24px;
+  font-size: 18px;
 }
 
-img {
+.image {
   margin: 20px 0;
   width: 100%;
+}
+
+.brand {
+  margin: 20px 0;
+  width: 100px;
+}
+
+#navLogo {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 8px;
 }
 
 button {
@@ -96,7 +113,7 @@ nav li {
 nav a {
   display: inline-block;
   width: 100px;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
   text-decoration: none;
   padding: 20px 0;
@@ -147,7 +164,8 @@ nav a#toggle-btn {
     display: inline-block;
     position: absolute;
     right: 5px;
-    top: 20px;
+    top: 12px;
+    letter-spacing: 2px;
   }
 
   nav a#toggle-btn {
