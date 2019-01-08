@@ -65,12 +65,12 @@ $('a[href*="#"]')
   });
 
 
-  // scroll to top show
-  $(document).scroll(function() {
-    var y = $(this).scrollTop();
-    if (y > 600) {
-      $('#scrollTop').fadeIn(400);
-    } else {
-      $('#scrollTop').fadeOut(400);
-    }
-  });
+// scroll to top show
+$(document).scroll(function () {
+  var y = $(this).scrollTop();
+  if (y > 600) {
+    $('#scrollTop').fadeIn(400);
+  } else {
+    $('#scrollTop').fadeOut(400);
+  }
+});

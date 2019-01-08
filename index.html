@@ -14,6 +14,7 @@
   <!-- styles -->
   <link rel="stylesheet" href="css/main.css">
   <link rel="shortcut icon" type="image/png" href="/img/hive.png" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
@@ -57,9 +58,9 @@
   <a name="home"></a>
 
   <div class="section-hero">
-    <div class="container">
+    <div data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="500" class="container">
       <h1>HIVE</h1>
-      <h2 class="futureText">Join the movement</h2>
+      <h2 id="subtitle" class="futureText">Join the movement</h2>
       <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui cum, ea architecto inventore mollitia temporibus
         quisquam ducimus voluptatem ipsa tempore modi nam ratione dignissimos nisi voluptate autem corporis, veritatis
         eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> -->
@@ -73,7 +74,7 @@
   <div id="overview" class="section">
     <div class="container">
       <div class="overview-content">
-        <div>
+        <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="600">
           <h2 class="futureText">Overview</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, a maxime? Pariatur, praesentium quia
             itaque dignissimos facere at officiis possimus, error fuga numquam officia corrupti eligendi saepe quisquam
@@ -108,7 +109,7 @@
   <a name="features"></a>
   <div id="features" class="section">
     <div class="container">
-      <div class="features-content">
+      <div class="features-content" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="500" >
         <div>
           <img class="image" src="./img/features.jpg" alt="">
         </div>
@@ -147,7 +148,10 @@
     </div>
   </div>
 
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
   <!-- jquery -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
