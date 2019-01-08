@@ -199,6 +199,11 @@ nav a#toggle-btn {
   .menu {
     zoom: 1;
   }
+
+  #scrollTop {
+    bottom: 40px;
+    right: 10px;
+  }
 }
 
 /* landing page content */
