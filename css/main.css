@@ -365,3 +365,13 @@ footer span {
   color: #8d8273;
   font-weight: 600;
 }
+
+
+/* effects */
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-blend-mode: overlay;
+}
